@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: $font-stack;
+}
+
+.mh--nav-bar, .bh--hero-content{
+    margin: 0 auto;
+    max-width: 80%;
+}
+

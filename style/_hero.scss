@@ -1,0 +1,31 @@
+// Hero Block
+.bh-hc--text, .bh-hc--button{
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin:  20px 0;
+}
+.bh--content{
+    background-image: url(https://www.usxjobs.com/wp-content/uploads/2019/01/HeroTruck-Freightliner-Zoom.jpg)!important;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bh--hero-content{
+    padding-top: 200px;
+    margin: auto;
+}
+.bh--btn-searchjobs, .bh--btn-quickapply{
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 40px;
+    margin: 0 10px;
+}
+.bh--btn-searchjobs{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.bh--btn-quickapply{
+    background-color: $buttons-color;
+}

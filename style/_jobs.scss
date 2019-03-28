@@ -1,0 +1,39 @@
+.btj--content{
+    margin: auto;
+    max-width: 70%;
+}
+.btj-c--header{
+    text-align: center;
+    padding: 47px 0 27px 0;
+    & p {
+        font-size: 2.5em;
+    }
+}
+.btj-c--img-grid{
+    display: flex;
+    justify-content: center;
+}
+.btj-c-ig--box{
+    width: 100%;
+    margin: 0 2%;
+    align-items: center;
+    justify-content: center;
+}
+.box-img{
+    margin: 0 auto;
+    align-items: center;
+    width: 90%;
+}
+.box-img img{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+.box-btn{
+    text-align: center;
+    & a{
+        background-color: $buttons-color;
+        padding: 10px 100%;
+        text-align: center;
+    }
+}
