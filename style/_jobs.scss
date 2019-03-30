@@ -12,12 +12,14 @@
 .btj-c--img-grid{
     display: flex;
     justify-content: center;
+    padding: 27px 0;
 }
 .btj-c-ig--box{
     width: 100%;
     margin: 0 2%;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .box-img{
     margin: 0 auto;
@@ -31,9 +33,26 @@
 }
 .box-btn{
     text-align: center;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin: -45px auto 30px!important;
     & a{
         background-color: $buttons-color;
-        padding: 10px 100%;
         text-align: center;
+        padding: 10px;  
+        width: 100%;
+        color: #fff;
+        font-size: 19px;
     }
 }
+.box-btn--text{
+    margin-top: 35px;
+    text-align: center;
+    & .b-b-t--inner p{
+        color: $buttons-color;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+}
+
